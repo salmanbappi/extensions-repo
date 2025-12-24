@@ -33,7 +33,7 @@ def generate():
             version_code = int(parts[2].replace("c", ""))
             
             if "dhakaflix" in pkg:
-                name = "Aniyomi: DhakaFlix"
+                name = "Aniyomi: Dhakadev"
             elif "dflix" in pkg:
                 name = "Aniyomi: Dflix"
             else:
