@@ -34,16 +34,6 @@ def generate():
             
             name = "DhakaFlix" if "dhakaflix" in pkg else "Dflix" if "dflix" in pkg else pkg
             
-            # Source identification using generated IDs from Smali logic
-            source_id = 1 # Default
-            base_url = "http://localhost"
-            if name == "DhakaFlix":
-                source_id = 1685336772390838009
-                base_url = "http://172.16.50.9"
-            elif name == "Dflix":
-                source_id = 2130205683428550894
-                base_url = "https://dflix.discoveryftp.net"
-            
             item = {
                 "name": f"Aniyomi: {name}",
                 "pkg": pkg,
@@ -54,15 +44,7 @@ def generate():
                 "nsfw": 0,
                 "hasReadme": 0,
                 "hasChangelog": 0,
-                "icon": f"https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/{pkg}.png",
-                "sources": [
-                    {
-                        "name": name,
-                        "id": source_id,
-                        "baseUrl": base_url,
-                        "lang": "all"
-                    }
-                ]
+                "icon": f"https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/{pkg}.png"
             }
             item["size"] = get_apk_size(apk_path)
             item["sha256"] = get_file_sha256(apk_path)
