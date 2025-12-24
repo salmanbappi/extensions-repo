@@ -34,11 +34,12 @@ def generate():
             
             name = "DhakaFlix" if "dhakaflix" in pkg else "Dflix" if "dflix" in pkg else pkg
             
-            # Simple source identification
+            # Source identification using generated IDs from Smali logic
             source_id = 1 # Default
             if name == "DhakaFlix":
-                # Matches DhakaFlix.smali generateId logic
-                source_id = 14792123456789 # Placeholder for actual generated ID
+                source_id = 1685336772390838009
+            elif name == "Dflix":
+                source_id = 2130205683428550894
             
             item = {
                 "name": f"Aniyomi: {name}",
@@ -55,7 +56,7 @@ def generate():
                     {
                         "name": name,
                         "id": source_id,
-                        "baseUrl": "http://localhost",
+                        "baseUrl": "http://localhost", # Placeholder
                         "lang": "all"
                     }
                 ]
