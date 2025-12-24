@@ -1,0 +1,75 @@
+import json
+import yaml
+import os
+import hashlib
+import sys
+
+def get_apk_size(file_path):
+    return os.path.getsize(file_path)
+
+def get_file_sha256(file_path):
+    with open(file_path, "rb") as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+def generate():
+    repo_data = []
+    apk_dir = "apk"
+    
+    if not os.path.exists(apk_dir):
+        os.makedirs(apk_dir)
+
+    # Process all APKs in the apk directory
+    for apk_name in os.listdir(apk_dir):
+        if not apk_name.endswith(".apk"):
+            continue
+            
+        apk_path = os.path.join(apk_dir, apk_name)
+        
+        # We need to extract info. Since we don't have apktool here easily,
+        # we expect a metadata file or parse from filename
+        # Pattern: pkgname-vVersionName-cVersionCode.apk
+        try:
+            # Example: eu.kanade.tachiyomi.animeextension.all.dhakaflix-v14.9-c9.apk
+            parts = apk_name.replace(".apk", "").split("-")
+            pkg = parts[0]
+            version_name = parts[1].replace("v", "")
+            version_code = int(parts[2].replace("c", ""))
+            
+            name = "DhakaFlix" if "dhakaflix" in pkg else "Dflix" if "dflix" in pkg else pkg
+            
+            item = {
+                "name": f"Aniyomi: {name}",
+                "pkg": pkg,
+                "apk": apk_name,
+                "lang": "all",
+                "code": version_code,
+                "version": version_name,
+                "nsfw": 0,
+                "hasReadme": 0,
+                "hasChangelog": 0,
+                "icon": f"https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/{pkg}.png"
+            }
+            item["size"] = get_apk_size(apk_path)
+            item["sha256"] = get_file_sha256(apk_path)
+            repo_data.append(item)
+        except Exception as e:
+            print(f"Skipping {apk_name} due to naming convention error: {e}")
+
+    # Save index.min.json
+    with open("index.min.json", "w") as f:
+        json.dump(repo_data, f, separators=(',', ':'))
+
+    # Save repo.json
+    repo_info = {
+        "meta": {
+            "name": "SalmanBappi Extensions Repo",
+            "shortName": "salmanbappi",
+            "website": "https://github.com/salmanbappi/extensions-repo",
+            "signingKeyFingerprint": "c7ebe223044970f2f9738f600dc25c180d3ed03994e088aaf5709338c57b93af"
+        }
+    }
+    with open("repo.json", "w") as f:
+        json.dump(repo_info, f, indent=2)
+
+if __name__ == "__main__":
+    generate()
