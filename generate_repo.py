@@ -34,6 +34,12 @@ def generate():
             
             name = "DhakaFlix" if "dhakaflix" in pkg else "Dflix" if "dflix" in pkg else pkg
             
+            # Simple source identification
+            source_id = 1 # Default
+            if name == "DhakaFlix":
+                # Matches DhakaFlix.smali generateId logic
+                source_id = 14792123456789 # Placeholder for actual generated ID
+            
             item = {
                 "name": f"Aniyomi: {name}",
                 "pkg": pkg,
@@ -44,7 +50,15 @@ def generate():
                 "nsfw": 0,
                 "hasReadme": 0,
                 "hasChangelog": 0,
-                "icon": f"https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/{pkg}.png"
+                "icon": f"https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/{pkg}.png",
+                "sources": [
+                    {
+                        "name": name,
+                        "id": source_id,
+                        "baseUrl": "http://localhost",
+                        "lang": "all"
+                    }
+                ]
             }
             item["size"] = get_apk_size(apk_path)
             item["sha256"] = get_file_sha256(apk_path)
