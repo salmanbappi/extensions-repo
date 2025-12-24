@@ -12,7 +12,7 @@ def get_file_sha256(file_path):
         return hashlib.sha256(f.read()).hexdigest()
 
 def generate():
-    repo_data = []
+    repo_data = {}
     apk_dir = "apk"
     
     if not os.path.exists(apk_dir):
@@ -25,9 +25,6 @@ def generate():
             
         apk_path = os.path.join(apk_dir, apk_name)
         
-        # We need to extract info. Since we don't have apktool here easily,
-        # we expect a metadata file or parse from filename
-        # Pattern: pkgname-vVersionName-cVersionCode.apk
         try:
             # Example: eu.kanade.tachiyomi.animeextension.all.dhakaflix-v14.9-c9.apk
             parts = apk_name.replace(".apk", "").split("-")
@@ -51,13 +48,19 @@ def generate():
             }
             item["size"] = get_apk_size(apk_path)
             item["sha256"] = get_file_sha256(apk_path)
-            repo_data.append(item)
+            
+            # Only keep the highest version code
+            if pkg not in repo_data or version_code > repo_data[pkg]["code"]:
+                repo_data[pkg] = item
         except Exception as e:
             print(f"Skipping {apk_name} due to naming convention error: {e}")
 
+    # Convert dict to sorted list
+    final_data = sorted(repo_data.values(), key=lambda x: x["name"])
+
     # Save index.min.json
     with open("index.min.json", "w") as f:
-        json.dump(repo_data, f, separators=(',', ':'))
+        json.dump(final_data, f, separators=(',', ':'))
 
     # Save repo.json
     repo_info = {
