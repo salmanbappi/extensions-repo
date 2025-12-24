@@ -36,10 +36,13 @@ def generate():
             
             # Source identification using generated IDs from Smali logic
             source_id = 1 # Default
+            base_url = "http://localhost"
             if name == "DhakaFlix":
                 source_id = 1685336772390838009
+                base_url = "http://172.16.50.9"
             elif name == "Dflix":
                 source_id = 2130205683428550894
+                base_url = "https://dflix.discoveryftp.net"
             
             item = {
                 "name": f"Aniyomi: {name}",
@@ -56,7 +59,7 @@ def generate():
                     {
                         "name": name,
                         "id": source_id,
-                        "baseUrl": "http://localhost", # Placeholder
+                        "baseUrl": base_url,
                         "lang": "all"
                     }
                 ]
