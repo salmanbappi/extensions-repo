@@ -32,10 +32,15 @@ def generate():
             version_name = parts[1].replace("v", "")
             version_code = int(parts[2].replace("c", ""))
             
-            name = "DhakaFlix" if "dhakaflix" in pkg else "Dflix" if "dflix" in pkg else pkg
+            if "dhakaflix" in pkg:
+                name = "Dhakadev"
+            elif "dflix" in pkg:
+                name = "Aniyomi: Dflix"
+            else:
+                name = pkg
             
             item = {
-                "name": f"Aniyomi: {name}",
+                "name": name,
                 "pkg": pkg,
                 "apk": apk_name,
                 "lang": "all",
