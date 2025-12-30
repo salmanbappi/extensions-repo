@@ -34,12 +34,12 @@ def generate():
             
             if "dhakaflix2" in pkg:
                 name = "Aniyomi: DhakaFlix 2"
-            elif "dflixkotlin" in pkg:
-                name = "Aniyomi: Dflix Kotlin"
-            elif "dhakaflix" in pkg:
-                name = "Aniyomi: Dhakadev"
+            elif "dflixbackup" in pkg:
+                name = "Aniyomi: Dflix backup"
             elif "dflix" in pkg:
                 name = "Aniyomi: Dflix"
+            elif "dhakaflix" in pkg:
+                name = "Aniyomi: Dhakadev"
             elif "ftpbd" in pkg:
                 name = "Aniyomi: FtpBd"
             else:
