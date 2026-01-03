@@ -39,9 +39,13 @@ def generate():
             elif "dflix" in pkg:
                 name = "Aniyomi: Dflix"
             elif "dhakaflix" in pkg:
-                name = "Aniyomi: Dhakadev"
+                name = "Aniyomi: DhakaFlix"
             elif "ftpbd" in pkg:
                 name = "Aniyomi: FtpBd"
+            elif "animekai" in pkg:
+                name = "Aniyomi: AnimeKai"
+            elif "nagordola" in pkg:
+                name = "Aniyomi: Nagordola"
             else:
                 name = pkg
             
