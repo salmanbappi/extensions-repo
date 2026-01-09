@@ -1,5 +1,4 @@
 import json
-import yaml
 import os
 import hashlib
 import sys
