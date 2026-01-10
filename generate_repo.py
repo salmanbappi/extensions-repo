@@ -51,6 +51,10 @@ def generate():
                 name = "Aniyomi: Bijoy"
             elif "basplay" in pkg:
                 name = "Aniyomi: Bas Play"
+            elif "nagordola" in pkg:
+                name = "Aniyomi: Nagordola"
+            elif "udvash" in pkg:
+                name = "Aniyomi: Udvash"
             else:
                 name = pkg
             
