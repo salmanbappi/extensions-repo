@@ -41,6 +41,8 @@ def generate():
                 name = "Aniyomi: Dhakadev"
             elif "ftpbd" in pkg:
                 name = "Aniyomi: FtpBd"
+            elif "amaderftp" in pkg:
+                name = "Aniyomi: Amader FTP"
             else:
                 name = pkg
             
