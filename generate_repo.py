@@ -14,6 +14,18 @@ def generate():
     repo_data = {}
     apk_dir = "apk"
     
+    source_ids = {
+        "eu.kanade.tachiyomi.animeextension.all.cineplexbd": [5181466391484419848],
+        "eu.kanade.tachiyomi.animeextension.all.amaderftp": [84769302158234567],
+        "eu.kanade.tachiyomi.animeextension.all.jellyfinbijoy": [73658291047123456],
+        "eu.kanade.tachiyomi.animeextension.all.iccftp": [84726193058274619],
+        "eu.kanade.tachiyomi.animeextension.all.basplay": [5181466391484419847],
+        "eu.kanade.tachiyomi.animeextension.all.dflix": [5181466391484419844],
+        "eu.kanade.tachiyomi.animeextension.all.dhakaflix2": [5181466391484419841],
+        "eu.kanade.tachiyomi.animeextension.all.nagordola": [5181466391484419845],
+        "eu.kanade.tachiyomi.animeextension.all.udvash": [5181466391484419846]
+    }
+
     if not os.path.exists(apk_dir):
         os.makedirs(apk_dir)
 
@@ -66,6 +78,10 @@ def generate():
                 "hasChangelog": 0,
                 "icon": f"https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/{pkg}.png"
             }
+            
+            if pkg in source_ids:
+                item["sources"] = source_ids[pkg]
+                
             item["size"] = get_apk_size(apk_path)
             item["sha256"] = get_file_sha256(apk_path)
             
@@ -88,7 +104,7 @@ def generate():
             "name": "SalmanBappi Extensions Repo",
             "shortName": "salmanbappi",
             "website": "https://github.com/salmanbappi/extensions-repo",
-            "signingKeyFingerprint": "17a9a43374e4951aadb5f33e6d8b10a21e231cdfda050a0473a50254494dc040"
+            "signingKeyFingerprint": "212199045691887b32eb2397f167f4b7d53a73131119975df9914595bc95880a"
         }
     }
     with open("repo.json", "w") as f:
