@@ -49,6 +49,8 @@ def generate():
                 name = "Aniyomi: Cineplex BD"
             elif "jellyfinbijoy" in pkg:
                 name = "Aniyomi: Bijoy"
+            elif "roarzone" in pkg:
+                name = "Aniyomi: RoarZone"
             elif "basplay" in pkg:
                 name = "Aniyomi: Bas Play"
             elif "nagordola" in pkg:
