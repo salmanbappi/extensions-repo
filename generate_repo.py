@@ -50,9 +50,6 @@ SOURCE_MAP = {
     "eu.kanade.tachiyomi.animeextension.en.toonworld4all": [
         {"name": "ToonWorld4All", "lang": "en", "id": "5181466391484419850", "baseUrl": "https://toonworld4all.me"}
     ],
-    "eu.kanade.tachiyomi.animeextension.en.mediaserver": [
-        {"name": "MediaServer", "lang": "en", "id": "3615736726452648083", "baseUrl": "http://10.16.100.244:8096"}
-    ],
     "eu.kanade.tachiyomi.animeextension.all.infomedia": [
         {"name": "InfoMedia", "lang": "all", "id": "3615736726452648083", "baseUrl": "http://103.225.94.27/mediaserver"}
     ]
