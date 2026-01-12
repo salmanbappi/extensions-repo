@@ -3,55 +3,55 @@ import os
 import hashlib
 import sys
 
-# Stable 64-bit Source IDs and baseUrls for Anikku/Mihon support
+# Definitive Source IDs as STRINGS
 SOURCE_MAP = {
     "eu.kanade.tachiyomi.animeextension.all.dhakaflix2": [
-        {"name": "DhakaFlix 2", "lang": "all", "id": 5181519125883542211, "baseUrl": "http://172.16.50.9"}
+        {"name": "DhakaFlix 2", "lang": "all", "id": "5181466391484419841", "baseUrl": "http://172.16.50.9"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.dhakaflix": [
-        {"name": "DhakaFlix", "lang": "all", "id": 5181519125883542211, "baseUrl": "http://172.16.50.9"}
+        {"name": "DhakaFlix", "lang": "all", "id": "5181466391484419841", "baseUrl": "http://172.16.50.9"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.dflix": [
-        {"name": "Dflix", "lang": "all", "id": 5181466391484419844, "baseUrl": "https://dflix.discoveryftp.net"}
+        {"name": "Dflix", "lang": "all", "id": "5181466391484419844", "baseUrl": "https://dflix.discoveryftp.net"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.dflixbackup": [
-        {"name": "Dflix backup", "lang": "all", "id": 5181466391484419844, "baseUrl": "https://dflix.discoveryftp.net"}
+        {"name": "Dflix backup", "lang": "all", "id": "5181466391484419844", "baseUrl": "https://dflix.discoveryftp.net"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.ftpbd": [
-        {"name": "FtpBd", "lang": "all", "id": 23418800222257732, "baseUrl": "https://server3.ftpbd.net"}
+        {"name": "FtpBd", "lang": "all", "id": "23418800222257732", "baseUrl": "https://server3.ftpbd.net"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.amaderftp": [
-        {"name": "Amader FTP", "lang": "all", "id": 84769302158234567, "baseUrl": "http://amaderftp.net:8096"}
+        {"name": "Amader FTP", "lang": "all", "id": "84769302158234567", "baseUrl": "http://amaderftp.net:8096"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.iccftp": [
-        {"name": "IccFtp", "lang": "all", "id": 84726193058274619, "baseUrl": "http://10.16.100.244"}
+        {"name": "IccFtp", "lang": "all", "id": "84726193058274619", "baseUrl": "http://10.16.100.244"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.cineplexbd": [
-        {"name": "Cineplex BD", "lang": "all", "id": 5181466391484419848, "baseUrl": "http://cineplexbd.net"}
+        {"name": "Cineplex BD", "lang": "all", "id": "5181466391484419848", "baseUrl": "http://cineplexbd.net"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.jellyfinbijoy": [
-        {"name": "Jellyfin Bijoy", "lang": "all", "id": 73658291047123456, "baseUrl": "http://10.20.30.50"}
+        {"name": "Jellyfin Bijoy", "lang": "all", "id": "73658291047123456", "baseUrl": "http://10.20.30.50"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.roarzone": [
-        {"name": "RoarZone", "lang": "all", "id": 84769302158234568, "baseUrl": "http://10.16.100.200"}
+        {"name": "RoarZone", "lang": "all", "id": "84769302158234568", "baseUrl": "http://10.16.100.200"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.basplay": [
-        {"name": "Bas play", "lang": "all", "id": 5181466391484419847, "baseUrl": "http://103.87.212.46"}
+        {"name": "Bas play", "lang": "all", "id": "5181466391484419847", "baseUrl": "http://103.87.212.46"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.nagordola": [
-        {"name": "Nagordola", "lang": "all", "id": 5181466391484419845, "baseUrl": "https://cdn.nagordola.com.bd"}
+        {"name": "Nagordola", "lang": "all", "id": "5181466391484419845", "baseUrl": "https://cdn.nagordola.com.bd"}
     ],
     "eu.kanade.tachiyomi.animeextension.all.udvash": [
-        {"name": "Udvash", "lang": "all", "id": 5181466391484419846, "baseUrl": "https://online.udvash-unmesh.com"}
+        {"name": "Udvash", "lang": "all", "id": "5181466391484419846", "baseUrl": "https://online.udvash-unmesh.com"}
     ],
     "eu.kanade.tachiyomi.animeextension.en.animekai": [
-        {"name": "AnimeKai", "lang": "en", "id": 4567890123456, "baseUrl": "https://animekai.to"}
+        {"name": "AnimeKai", "lang": "en", "id": "4567890123456", "baseUrl": "https://animekai.to"}
     ],
     "eu.kanade.tachiyomi.animeextension.en.toonworld4all": [
-        {"name": "ToonWorld4All", "lang": "en", "id": 5181466391484419850, "baseUrl": "https://toonworld4all.me"}
+        {"name": "ToonWorld4All", "lang": "en", "id": "5181466391484419850", "baseUrl": "https://toonworld4all.me"}
     ],
     "eu.kanade.tachiyomi.animeextension.en.mediaserver": [
-        {"name": "MediaServer", "lang": "en", "id": 3615736726452648083, "baseUrl": "http://10.16.100.244:8096"}
+        {"name": "MediaServer", "lang": "en", "id": "3615736726452648083", "baseUrl": "http://10.16.100.244:8096"}
     ]
 }
 
@@ -69,7 +69,6 @@ def generate():
     if not os.path.exists(apk_dir):
         os.makedirs(apk_dir)
 
-    # Process all APKs in the apk directory
     for apk_name in os.listdir(apk_dir):
         if not apk_name.endswith(".apk"):
             continue
@@ -77,7 +76,6 @@ def generate():
         apk_path = os.path.join(apk_dir, apk_name)
         
         try:
-            # Example: eu.kanade.tachiyomi.animeextension.all.dhakaflix-v14.9-c9.apk
             parts = apk_name.replace(".apk", "").split("-")
             pkg = parts[0]
             version_name = parts[1].replace("v", "")
@@ -125,33 +123,28 @@ def generate():
                 "icon": f"https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/{pkg}.png"
             }
             
-            # Add Source IDs for Anikku/Mihon
             if pkg in SOURCE_MAP:
                 item["sources"] = SOURCE_MAP[pkg]
             
             item["size"] = get_apk_size(apk_path)
             item["sha256"] = get_file_sha256(apk_path)
             
-            # Only keep the highest version code
             if pkg not in repo_data or version_code > repo_data[pkg]["code"]:
                 repo_data[pkg] = item
         except Exception as e:
             print(f"Skipping {apk_name} due to naming convention error: {e}")
 
-    # Convert dict to sorted list
     final_data = sorted(repo_data.values(), key=lambda x: x["name"])
 
-    # Save index.min.json
     with open("index.min.json", "w") as f:
         json.dump(final_data, f, separators=(',', ':'))
 
-    # Save repo.json
     repo_info = {
         "meta": {
             "name": "SalmanBappi Extensions Repo",
             "shortName": "salmanbappi",
             "website": "https://github.com/salmanbappi/extensions-repo",
-            "signingKeyFingerprint": "212199045691887b32eb2397f167f4b7d53a73131119975df9914595bc95880a"
+            "signingKeyFingerprint": "17a9a43374e4951aadb5f33e6d8b10a21e231cdfda050a0473a50254494dc040"
         }
     }
     with open("repo.json", "w") as f:
