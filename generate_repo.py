@@ -52,6 +52,9 @@ SOURCE_MAP = {
     ],
     "eu.kanade.tachiyomi.animeextension.en.mediaserver": [
         {"name": "MediaServer", "lang": "en", "id": "3615736726452648083", "baseUrl": "http://10.16.100.244:8096"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.infomedia": [
+        {"name": "InfoMedia", "lang": "all", "id": "3615736726452648083", "baseUrl": "http://103.225.94.27/mediaserver"}
     ]
 }
 
@@ -83,6 +86,8 @@ def generate():
             
             if "dhakaflix2" in pkg:
                 name = "Aniyomi: DhakaFlix 2"
+            elif "infomedia" in pkg:
+                name = "Aniyomi: InfoMedia"
             elif "dflixbackup" in pkg:
                 name = "Aniyomi: Dflix backup"
             elif "dflix" in pkg:
