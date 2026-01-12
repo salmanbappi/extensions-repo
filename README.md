@@ -29,16 +29,6 @@ Currently, this repository hosts the following extensions:
 - **Amader FTP**: Support for Amader FTP.
 - **Cineplex BD**: Support for Cineplex BD movies and series.
 
-## Technical Maintenance Notes (Jan 2026 Fixes)
-
-The following critical issues were resolved to ensure compatibility with **Anikku** and **Mihon**:
-
-1.  **Source ID Stability**: All extensions now use **hardcoded 64-bit Long IDs** in the Kotlin source files. This prevents extensions from becoming "Obsolete" when renamed or moved.
-2.  **Author Metadata**: Added the `author` field to `build.gradle` and `AndroidManifest.xml`. This allows Anikku to correctly display the developer name (`@salmanbappi`).
-3.  **Signing Fingerprint**: Standardized all extensions to use a consistent release keystore. The repository metadata (`repo.json`) is synchronized with the SHA-256 fingerprint: `c7ebe223044970f2f9738f600dc25c180d3ed03994e088aaf5709338c57b93af`.
-4.  **Metadata Synchronization**: The `generate_repo.py` script was updated to ensure the `sources` array in `index.min.json` perfectly matches the IDs hardcoded in the APKs.
-5.  **Cineplex BD Fix**: Corrected a configuration error where release builds were using a debug signing key.
-
 ## Technical Information
 
 - **Repository Website**: [https://github.com/salmanbappi/extensions-repo](https://github.com/salmanbappi/extensions-repo)
