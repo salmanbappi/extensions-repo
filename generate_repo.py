@@ -3,6 +3,58 @@ import os
 import hashlib
 import sys
 
+# Definitive Source IDs as STRINGS
+SOURCE_MAP = {
+    "eu.kanade.tachiyomi.animeextension.all.dhakaflix2": [
+        {"name": "DhakaFlix 2", "lang": "all", "id": "5181466391484419841", "baseUrl": "http://172.16.50.9"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.dhakaflix": [
+        {"name": "DhakaFlix", "lang": "all", "id": "5181466391484419841", "baseUrl": "http://172.16.50.9"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.dflix": [
+        {"name": "Dflix", "lang": "all", "id": "5181466391484419844", "baseUrl": "https://dflix.discoveryftp.net"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.dflixbackup": [
+        {"name": "Dflix backup", "lang": "all", "id": "5181466391484419844", "baseUrl": "https://dflix.discoveryftp.net"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.ftpbd": [
+        {"name": "FtpBd", "lang": "all", "id": "23418800222257732", "baseUrl": "https://server3.ftpbd.net"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.amaderftp": [
+        {"name": "Amader FTP", "lang": "all", "id": "84769302158234567", "baseUrl": "http://amaderftp.net:8096"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.iccftp": [
+        {"name": "IccFtp", "lang": "all", "id": "84726193058274619", "baseUrl": "http://10.16.100.244"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.cineplexbd": [
+        {"name": "Cineplex BD", "lang": "all", "id": "5181466391484419848", "baseUrl": "http://cineplexbd.net"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.jellyfinbijoy": [
+        {"name": "Jellyfin Bijoy", "lang": "all", "id": "73658291047123456", "baseUrl": "http://10.20.30.50"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.roarzone": [
+        {"name": "RoarZone", "lang": "all", "id": "84769302158234568", "baseUrl": "http://10.16.100.200"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.basplay": [
+        {"name": "Bas play", "lang": "all", "id": "5181466391484419847", "baseUrl": "http://103.87.212.46"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.nagordola": [
+        {"name": "Nagordola", "lang": "all", "id": "5181466391484419845", "baseUrl": "https://cdn.nagordola.com.bd"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.all.udvash": [
+        {"name": "Udvash", "lang": "all", "id": "5181466391484419846", "baseUrl": "https://online.udvash-unmesh.com"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.en.animekai": [
+        {"name": "AnimeKai", "lang": "en", "id": "4567890123456", "baseUrl": "https://animekai.to"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.en.toonworld4all": [
+        {"name": "ToonWorld4All", "lang": "en", "id": "5181466391484419850", "baseUrl": "https://toonworld4all.me"}
+    ],
+    "eu.kanade.tachiyomi.animeextension.en.mediaserver": [
+        {"name": "MediaServer", "lang": "en", "id": "3615736726452648083", "baseUrl": "http://10.16.100.244:8096"}
+    ]
+}
+
 def get_apk_size(file_path):
     return os.path.getsize(file_path)
 
@@ -71,6 +123,9 @@ def generate():
                 "icon": f"https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/{pkg}.png"
             }
             
+            if pkg in SOURCE_MAP:
+                item["sources"] = SOURCE_MAP[pkg]
+            
             item["size"] = get_apk_size(apk_path)
             item["sha256"] = get_file_sha256(apk_path)
             
@@ -86,7 +141,7 @@ def generate():
 
     repo_info = {
         "meta": {
-            "name": "SalmanBappi Extensions Repo",
+            "name": "SalmanBappi extension repo",
             "shortName": "salmanbappi",
             "website": "https://github.com/salmanbappi/extensions-repo",
             "signingKeyFingerprint": "17a9a43374e4951aadb5f33e6d8b10a21e231cdfda050a0473a50254494dc040"
