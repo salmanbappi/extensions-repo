@@ -144,7 +144,7 @@ def generate():
             "name": "SalmanBappi Extensions Repo",
             "shortName": "salmanbappi",
             "website": "https://github.com/salmanbappi/extensions-repo",
-            "signingKeyFingerprint": "17a9a43374e4951aadb5f33e6d8b10a21e231cdfda050a0473a50254494dc040"
+            "signingKeyFingerprint": "212199045691887b32eb2397f167f4b7d53a73131119975df9914595bc95880a"
         }
     }
     with open("repo.json", "w") as f:
