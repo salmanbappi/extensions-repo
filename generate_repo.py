@@ -44,6 +44,9 @@ SOURCE_MAP = {
     "eu.kanade.tachiyomi.animeextension.all.udvash": [
         {"name": "Udvash", "lang": "all", "id": "5181466391484419846", "baseUrl": "https://online.udvash-unmesh.com"}
     ],
+    "eu.kanade.tachiyomi.animeextension.all.fmftp": [
+        {"name": "FM FTP", "lang": "all", "id": "7214566391484419847", "baseUrl": "https://fmftp.net"}
+    ],
     "eu.kanade.tachiyomi.animeextension.en.animekai": [
         {"name": "AnimeKai", "lang": "en", "id": "4567890123456", "baseUrl": "https://animekai.to"}
     ],
@@ -114,6 +117,8 @@ def generate():
                 name = "Aniyomi: Nagordola"
             elif "udvash" in pkg:
                 name = "Aniyomi: Udvash"
+            elif "fmftp" in pkg:
+                name = "Aniyomi: FM FTP"
             else:
                 name = pkg
             
