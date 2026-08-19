@@ -1,0 +1,1654 @@
+[
+  {
+    "name": "Aniyomi: AgniSYS",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.agnisys",
+    "apk": "aniyomi-all.agnisys-v16.11013.apk",
+    "lang": "all",
+    "code": 11013,
+    "version": "16.11013",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AgniSYS",
+        "lang": "all",
+        "id": "7505489421620415599",
+        "baseUrl": "http://182.252.81.180:8096"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Amader FTP",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.amaderftp",
+    "apk": "aniyomi-all.amaderftp-v16.1016.apk",
+    "lang": "all",
+    "code": 1016,
+    "version": "16.1016",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Amader FTP",
+        "lang": "all",
+        "id": "8118632983621266808",
+        "baseUrl": "http://amaderftp.net:8096"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Anidap",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.anidap",
+    "apk": "aniyomi-all.anidap-v16.21.apk",
+    "lang": "all",
+    "code": 21,
+    "version": "16.21",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Anidap",
+        "lang": "all",
+        "id": "365488307691099060",
+        "baseUrl": "https://anidap.lol"
+      }
+    ]
+  },
+  {
+    "name": "Anikoto",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.anikoto",
+    "apk": "aniyomi-all.anikoto-v16.57.apk",
+    "lang": "all",
+    "code": 57,
+    "version": "16.57",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Anikoto",
+        "lang": "all",
+        "id": "6307843123091083312",
+        "baseUrl": "https://anikototv.to"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Animex",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.animex",
+    "apk": "aniyomi-all.animex-v16.1050.apk",
+    "lang": "all",
+    "code": 1050,
+    "version": "16.1050",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Animex",
+        "lang": "all",
+        "id": "7391826450193847201",
+        "baseUrl": "https://animex.one"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Anivix",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.anivix",
+    "apk": "aniyomi-all.anivix-v16.1009.apk",
+    "lang": "all",
+    "code": 1009,
+    "version": "16.1009",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Anivix",
+        "lang": "all",
+        "id": "1287389172635928174",
+        "baseUrl": "https://anivix.cc"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Bas play",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.basplay",
+    "apk": "aniyomi-all.basplay-v16.1435.apk",
+    "lang": "all",
+    "code": 1435,
+    "version": "16.1435",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Bas play",
+        "lang": "all",
+        "id": "5181466391484419847",
+        "baseUrl": "http://103.87.212.46"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: BDIX Live TV",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.bdixlivetv",
+    "apk": "aniyomi-all.bdixlivetv-v16.1.apk",
+    "lang": "all",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "BDIX Live TV",
+        "lang": "all",
+        "id": "4519283712345678910",
+        "baseUrl": "http://172.16.29.28"
+      }
+    ]
+  },
+  {
+    "name": "Castle TV",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.castletv",
+    "apk": "aniyomi-all.castletv-v16.5.apk",
+    "lang": "all",
+    "code": 5,
+    "version": "16.5",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Castle TV",
+        "lang": "all",
+        "id": "2505380552862183475",
+        "baseUrl": "https://api.hlowb.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Cineplexbd",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.cineplexbd",
+    "apk": "aniyomi-all.cineplexbd-v16.1064.apk",
+    "lang": "all",
+    "code": 1064,
+    "version": "16.1064",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Cineplex BD",
+        "lang": "all",
+        "id": "5181466391484419848",
+        "baseUrl": "http://cineplexbd.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: DesiDubAnime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.desidubanime",
+    "apk": "aniyomi-all.desidubanime-v16.14.apk",
+    "lang": "all",
+    "code": 14,
+    "version": "16.14",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "DesiDubAnime",
+        "lang": "all",
+        "id": "3336502816552275903",
+        "baseUrl": "https://www.desidubanime.me"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Dflix",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.dflix",
+    "apk": "aniyomi-all.dflix-v16.1053.apk",
+    "lang": "all",
+    "code": 1053,
+    "version": "16.1053",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Dflix",
+        "lang": "all",
+        "id": "5181466391484419844",
+        "baseUrl": "https://dflix.discoveryftp.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Dflix backup",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.dflixbackup",
+    "apk": "eu.kanade.tachiyomi.animeextension.all.dflixbackup-v14.187-c187.apk",
+    "lang": "all",
+    "code": 187,
+    "version": "14.187",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "icon": "https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/eu.kanade.tachiyomi.animeextension.all.dflixbackup.png",
+    "sources": [
+      {
+        "name": "Dflix backup",
+        "lang": "all",
+        "id": 5181466391484419844,
+        "baseUrl": "https://dflix.discoveryftp.net"
+      }
+    ],
+    "size": 132037,
+    "sha256": "5b7cce46ece9b94ed79672a2b6f20ac711c311dc4803f8434842f27ae58bba33"
+  },
+  {
+    "name": "Aniyomi: Dhakadev",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.dhakaflix",
+    "apk": "eu.kanade.tachiyomi.animeextension.all.dhakaflix-v14.1273-c1273.apk",
+    "lang": "all",
+    "code": 1273,
+    "version": "14.1273",
+    "nsfw": 0,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "icon": "https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/eu.kanade.tachiyomi.animeextension.all.dhakaflix.png",
+    "sources": [
+      {
+        "name": "DhakaFlix",
+        "lang": "all",
+        "id": 5181466391484419841,
+        "baseUrl": "http://172.16.50.9"
+      }
+    ],
+    "size": 127941,
+    "sha256": "4549fac236446044f0d4eec3d58b125f2800f99622e3378b625e848c725bbeb0"
+  },
+  {
+    "name": "Aniyomi: DhakaFlix 2",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.dhakaflix2",
+    "apk": "aniyomi-all.dhakaflix2-v16.1220.apk",
+    "lang": "all",
+    "code": 1220,
+    "version": "16.1220",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "DhakaFlix (Hindi & South Indian)",
+        "lang": "all",
+        "id": "5181466391484419941",
+        "baseUrl": "http://172.16.50.14"
+      },
+      {
+        "name": "DhakaFlix (TV & Web Series)",
+        "lang": "all",
+        "id": "5181466391484419942",
+        "baseUrl": "http://172.16.50.12"
+      },
+      {
+        "name": "DhakaFlix (Anime & Documentary)",
+        "lang": "all",
+        "id": "5181466391484419943",
+        "baseUrl": "http://172.16.50.9"
+      },
+      {
+        "name": "DhakaFlix (English & International)",
+        "lang": "all",
+        "id": "5181466391484419944",
+        "baseUrl": "http://172.16.50.7"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Fanush",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.fanush",
+    "apk": "aniyomi-all.fanush-v16.1016.apk",
+    "lang": "all",
+    "code": 1016,
+    "version": "16.1016",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Fanush",
+        "lang": "all",
+        "id": "7106022310108409904",
+        "baseUrl": "http://103.132.95.221:8096"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: FM FTP",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.fmftp",
+    "apk": "aniyomi-all.fmftp-v16.1010.apk",
+    "lang": "all",
+    "code": 1010,
+    "version": "16.1010",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "FM FTP",
+        "lang": "all",
+        "id": "7214566391484419847",
+        "baseUrl": "https://fmftp.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Fojik",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.fojik",
+    "apk": "aniyomi-all.fojik-v16.9.apk",
+    "lang": "all",
+    "code": 9,
+    "version": "16.9",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Fojik",
+        "lang": "all",
+        "id": "859473620158291034",
+        "baseUrl": "https://fojik.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: 4KHDHub",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.fourkhdhub",
+    "apk": "aniyomi-all.fourkhdhub-v16.10.apk",
+    "lang": "all",
+    "code": 10,
+    "version": "16.10",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "4KHDHub",
+        "lang": "all",
+        "id": "1358941295719324683",
+        "baseUrl": "https://4khdhub.one"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: FtpBd",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.ftpbd",
+    "apk": "aniyomi-all.ftpbd-v16.1351.apk",
+    "lang": "all",
+    "code": 1351,
+    "version": "16.1351",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "FTPBD (Movies)",
+        "lang": "all",
+        "id": "23418800222257732",
+        "baseUrl": "https://server3.ftpbd.net"
+      },
+      {
+        "name": "FTPBD (English)",
+        "lang": "all",
+        "id": "23417700710629956",
+        "baseUrl": "http://server2.ftpbd.net"
+      },
+      {
+        "name": "FTPBD (Anime)",
+        "lang": "all",
+        "id": "23420999245513284",
+        "baseUrl": "https://server5.ftpbd.net"
+      },
+      {
+        "name": "FTPBD (Series & Tutorial)",
+        "lang": "all",
+        "id": "23419899733885508",
+        "baseUrl": "http://server4.ftpbd.net"
+      },
+      {
+        "name": "FTPBD (Sports)",
+        "lang": "all",
+        "id": "23423198268768836",
+        "baseUrl": "https://server7.ftpbd.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: ICC FTP",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.iccftp",
+    "apk": "aniyomi-all.iccftp-v16.1015.apk",
+    "lang": "all",
+    "code": 1015,
+    "version": "16.1015",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "ICC FTP",
+        "lang": "all",
+        "id": "84726193058274619",
+        "baseUrl": "http://10.16.100.244"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: InfoMedia",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.infomedia",
+    "apk": "aniyomi-all.infomedia-v16.1008.apk",
+    "lang": "all",
+    "code": 1008,
+    "version": "16.1008",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "InfoMedia",
+        "lang": "all",
+        "id": "3615736726452648083",
+        "baseUrl": "http://103.225.94.27"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Bijoy",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.jellyfinbijoy",
+    "apk": "aniyomi-all.jellyfinbijoy-v16.1011.apk",
+    "lang": "all",
+    "code": 1011,
+    "version": "16.1011",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Bijoy",
+        "lang": "all",
+        "id": "2457157732627850781",
+        "baseUrl": "http://10.20.30.50"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Live Sports",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.livesports",
+    "apk": "aniyomi-all.livesports-v16.1.apk",
+    "lang": "all",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Live Sports",
+        "lang": "all",
+        "id": "8246513271928475192",
+        "baseUrl": "http://10.20.30.40"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Lunar",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.lunar",
+    "apk": "aniyomi-all.lunar-v16.17.apk",
+    "lang": "all",
+    "code": 17,
+    "version": "16.17",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Lunar",
+        "lang": "all",
+        "id": "8611057227872046318",
+        "baseUrl": "https://lunarx.to"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Mango Live TV",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.mangolivetv",
+    "apk": "aniyomi-all.mangolivetv-v16.1.apk",
+    "lang": "all",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Mango Live TV",
+        "lang": "all",
+        "id": "8519283712345678910",
+        "baseUrl": "http://10.114.130.254"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Moviebox",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.moviebox",
+    "apk": "aniyomi-all.moviebox-v16.1142.apk",
+    "lang": "all",
+    "code": 1142,
+    "version": "16.1142",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "MovieBox",
+        "lang": "all",
+        "id": "3508466391484419848",
+        "baseUrl": "https://moviebox.ph"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Movix",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.movix",
+    "apk": "aniyomi-all.movix-v16.1015.apk",
+    "lang": "all",
+    "code": 1015,
+    "version": "16.1015",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "MOVIX",
+        "lang": "all",
+        "id": "5181466391484419901",
+        "baseUrl": "https://hdmovix.cc"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Nagordola",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.nagordola",
+    "apk": "aniyomi-all.nagordola-v16.1029.apk",
+    "lang": "all",
+    "code": 1029,
+    "version": "16.1029",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Nagordola",
+        "lang": "all",
+        "id": "5181466391484419845",
+        "baseUrl": "https://cdn.nagordola.com.bd"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Nepu",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.nepu",
+    "apk": "aniyomi-all.nepu-v16.1168.apk",
+    "lang": "all",
+    "code": 1168,
+    "version": "16.1168",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Nepu",
+        "lang": "all",
+        "id": "5181466391484419855",
+        "baseUrl": "https://nepu.io"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: NetMirror",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.netmirror",
+    "apk": "aniyomi-all.netmirror-v16.1084.apk",
+    "lang": "all",
+    "code": 1084,
+    "version": "16.1084",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Netflix",
+        "lang": "all",
+        "id": "5181466391484419888",
+        "baseUrl": "https://net52.cc"
+      },
+      {
+        "name": "Prime Video",
+        "lang": "all",
+        "id": "5181466391484419889",
+        "baseUrl": "https://net52.cc"
+      },
+      {
+        "name": "Hotstar",
+        "lang": "all",
+        "id": "5181466391484419890",
+        "baseUrl": "https://net52.cc"
+      },
+      {
+        "name": "Disney",
+        "lang": "all",
+        "id": "5181466391484419891",
+        "baseUrl": "https://net52.cc"
+      },
+      {
+        "name": "Marvel",
+        "lang": "all",
+        "id": "5181466391484419892",
+        "baseUrl": "https://net52.cc"
+      },
+      {
+        "name": "Star Wars",
+        "lang": "all",
+        "id": "5181466391484419893",
+        "baseUrl": "https://net52.cc"
+      },
+      {
+        "name": "Pixar",
+        "lang": "all",
+        "id": "5181466391484419894",
+        "baseUrl": "https://net52.cc"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: NetMovie",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.netmovie",
+    "apk": "aniyomi-all.netmovie-v16.3.apk",
+    "lang": "all",
+    "code": 3,
+    "version": "16.3",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "NetMovie",
+        "lang": "all",
+        "id": "8915758360368909138",
+        "baseUrl": "https://pc.netmovie.site"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Nowhdtime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.nowhdtime",
+    "apk": "aniyomi-all.nowhdtime-v16.7.apk",
+    "lang": "all",
+    "code": 7,
+    "version": "16.7",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Nowhdtime",
+        "lang": "all",
+        "id": "673928172938476251",
+        "baseUrl": "https://nowhdtime.com.bd"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: RoarZone",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.roarzone",
+    "apk": "aniyomi-all.roarzone-v16.1020.apk",
+    "lang": "all",
+    "code": 1020,
+    "version": "16.1020",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "RoarZone",
+        "lang": "all",
+        "id": "1728503975387903131",
+        "baseUrl": "https://play.roarzone.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Roar zone tv",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.roarzonetv",
+    "apk": "aniyomi-all.roarzonetv-v16.1.apk",
+    "lang": "all",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Roar zone tv",
+        "lang": "all",
+        "id": "84769302158234569",
+        "baseUrl": "https://tv.roarzone.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Seanime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.seanime",
+    "apk": "aniyomi-all.seanime-v16.37.apk",
+    "lang": "all",
+    "code": 37,
+    "version": "16.37",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Seanime",
+        "lang": "all",
+        "id": "85274903847291047",
+        "baseUrl": "http://127.0.0.1:43211"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Toonhub4u",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.toonhub4u",
+    "apk": "aniyomi-all.toonhub4u-v16.10.apk",
+    "lang": "all",
+    "code": 10,
+    "version": "16.10",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Toonhub4u",
+        "lang": "all",
+        "id": "5182749372810482937",
+        "baseUrl": "https://toonhub4u.co"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: ToonWorld4All",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.toonworld4all",
+    "apk": "aniyomi-all.toonworld4all-v16.20.apk",
+    "lang": "all",
+    "code": 20,
+    "version": "16.20",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "ToonWorld4All",
+        "lang": "all",
+        "id": "7291048561930492815",
+        "baseUrl": "https://toonworld4all.me"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Udvash",
+    "pkg": "eu.kanade.tachiyomi.animeextension.all.udvash",
+    "apk": "aniyomi-all.udvash-v16.24.apk",
+    "lang": "all",
+    "code": 24,
+    "version": "16.24",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Udvash",
+        "lang": "all",
+        "id": "5181466391484419846",
+        "baseUrl": "https://online.udvash-unmesh.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AllAnime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.allanime",
+    "apk": "aniyomi-en.allanime-v16.63.apk",
+    "lang": "en",
+    "code": 63,
+    "version": "16.63",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AllAnime",
+        "lang": "en",
+        "id": "4709139914729853090",
+        "baseUrl": "https://allmanga.to/anime"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AniChan",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.anichan",
+    "apk": "aniyomi-en.anichan-v16.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AniChan",
+        "lang": "en",
+        "id": "1376941743793088814",
+        "baseUrl": "https://anichan.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AniDB",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.anidb",
+    "apk": "aniyomi-en.anidb-v16.12.apk",
+    "lang": "en",
+    "code": 12,
+    "version": "16.12",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AniDB",
+        "lang": "en",
+        "id": "3556703948634317295",
+        "baseUrl": "https://anidb.app"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Anikage",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.anikage",
+    "apk": "aniyomi-en.anikage-v16.5.apk",
+    "lang": "en",
+    "code": 5,
+    "version": "16.5",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Anikage",
+        "lang": "en",
+        "id": "975930199828232260",
+        "baseUrl": "https://anikage.cc"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AniKuro",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.anikuro",
+    "apk": "aniyomi-en.anikuro-v16.4.apk",
+    "lang": "en",
+    "code": 4,
+    "version": "16.4",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AniKuro",
+        "lang": "en",
+        "id": "5301034000422404358",
+        "baseUrl": "https://anikuro.ru"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AniLight",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.anilight",
+    "apk": "aniyomi-en.anilight-v16.12.apk",
+    "lang": "en",
+    "code": 12,
+    "version": "16.12",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AniLight",
+        "lang": "en",
+        "id": "3093151816393679905",
+        "baseUrl": "https://anilight.live"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AnimeHeaven",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animeheaven",
+    "apk": "aniyomi-en.animeheaven-v16.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "16.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AnimeHeaven",
+        "lang": "en",
+        "id": "8357740258782507555",
+        "baseUrl": "https://animeheaven.me"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AnimePahe",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animepahe",
+    "apk": "aniyomi-en.animepahe-v16.78.apk",
+    "lang": "en",
+    "code": 78,
+    "version": "16.78",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AnimePahe",
+        "lang": "en",
+        "id": "9163675745699695675",
+        "baseUrl": "https://animepahe.pw"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AnimeSaga",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animesaga",
+    "apk": "aniyomi-en.animesaga-v16.6.apk",
+    "lang": "en",
+    "code": 6,
+    "version": "16.6",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AnimeSaga",
+        "lang": "en",
+        "id": "3229757890237862969",
+        "baseUrl": "https://www.animesaga.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Animesalt",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animesalt",
+    "apk": "aniyomi-en.animesalt-v16.12.apk",
+    "lang": "en",
+    "code": 12,
+    "version": "16.12",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AnimeSalt",
+        "lang": "en",
+        "id": "2506580508258452219",
+        "baseUrl": "https://animesalt.me"
+      }
+    ]
+  },
+  {
+    "name": "AnimeSogo",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animesogo",
+    "apk": "aniyomi-en.animesogo-v16.25.apk",
+    "lang": "en",
+    "code": 25,
+    "version": "16.25",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AnimeSogo",
+        "lang": "en",
+        "id": "8456322126210259639",
+        "baseUrl": "https://animesogo.to"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AnimeStream",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animestream",
+    "apk": "aniyomi-en.animestream-v16.24.apk",
+    "lang": "en",
+    "code": 24,
+    "version": "16.24",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AnimeStream",
+        "lang": "en",
+        "id": "9045717142795534100",
+        "baseUrl": "https://anime.uniquestream.net"
+      }
+    ]
+  },
+  {
+    "name": "AnimeSuge",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animesuge",
+    "apk": "aniyomi-en.animesuge-v16.13.apk",
+    "lang": "en",
+    "code": 13,
+    "version": "16.13",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AnimeSuge",
+        "lang": "en",
+        "id": "4822448058854680831",
+        "baseUrl": "https://animesuge.cz"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Animostream",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animostream",
+    "apk": "aniyomi-en.animostream-v16.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "16.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Animostream",
+        "lang": "en",
+        "id": "4342025866776215131",
+        "baseUrl": "https://www.animostream.xyz"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: ANIMOTVSLASH",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.animotvslash",
+    "apk": "aniyomi-en.animotvslash-v16.6.apk",
+    "lang": "en",
+    "code": 6,
+    "version": "16.6",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "ANIMOTVSLASH",
+        "lang": "en",
+        "id": "3112498618371890109",
+        "baseUrl": "https://animotvslash.org"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AniNeko",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.anineko",
+    "apk": "aniyomi-en.anineko-v16.11.apk",
+    "lang": "en",
+    "code": 11,
+    "version": "16.11",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AniNeko",
+        "lang": "en",
+        "id": "1578760449259207021",
+        "baseUrl": "https://anineko.to"
+      }
+    ]
+  },
+  {
+    "name": "AniSnatch",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.anisnatch",
+    "apk": "aniyomi-en.anisnatch-v16.27.apk",
+    "lang": "en",
+    "code": 27,
+    "version": "16.27",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AniSnatch",
+        "lang": "en",
+        "id": "4572366095042462166",
+        "baseUrl": "https://anisnatch.top"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Anitummy",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.anitusk",
+    "apk": "aniyomi-en.anitusk-v16.29.apk",
+    "lang": "en",
+    "code": 29,
+    "version": "16.29",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Anitummy",
+        "lang": "en",
+        "id": "5282113871322126606",
+        "baseUrl": "https://anitummy.cc"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AniWave (Unoriginal)",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.aniwave",
+    "apk": "aniyomi-en.aniwave-v16.11.apk",
+    "lang": "en",
+    "code": 11,
+    "version": "16.11",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AniWave (Unoriginal)",
+        "lang": "en",
+        "id": "4383278740715532790",
+        "baseUrl": "https://animewave.to"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: AV1Encodes",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.av1encodes",
+    "apk": "aniyomi-en.av1encodes-v16.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "AV1Encodes",
+        "lang": "en",
+        "id": "1014227790860730234",
+        "baseUrl": "https://av1encodes.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Bingr",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.bingr",
+    "apk": "aniyomi-en.bingr-v16.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "16.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Bingr",
+        "lang": "en",
+        "id": "2588009398454069423",
+        "baseUrl": "https://bingr.one"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Chikianimation",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.chikianimation",
+    "apk": "aniyomi-en.chikianimation-v16.6.apk",
+    "lang": "en",
+    "code": 6,
+    "version": "16.6",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Chikianimation",
+        "lang": "en",
+        "id": "4754747369317005541",
+        "baseUrl": "https://chikianimation.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Cinejoy",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.cinejoy",
+    "apk": "aniyomi-en.cinejoy-v16.7.apk",
+    "lang": "en",
+    "code": 7,
+    "version": "16.7",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Cinejoy",
+        "lang": "en",
+        "id": "3466517675390920839",
+        "baseUrl": "https://cinejoy.to"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: CinemaCity",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.cinemacity",
+    "apk": "aniyomi-en.cinemacity-v16.16.apk",
+    "lang": "en",
+    "code": 16,
+    "version": "16.16",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "CinemaCity",
+        "lang": "en",
+        "id": "2484898168102798072",
+        "baseUrl": "https://cinemacity.cc"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Cinemaos",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.cinemaos",
+    "apk": "aniyomi-en.cinemaos-v16.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "CinemaOS",
+        "lang": "en",
+        "id": "8051450349574520983",
+        "baseUrl": "https://cinemaos.live"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Dramanice",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.dramanice",
+    "apk": "aniyomi-en.dramanice-v16.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "16.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Dramanice",
+        "lang": "en",
+        "id": "4845587833704076862",
+        "baseUrl": "https://dramanice.cl"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: FboxTV",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.fboxtv",
+    "apk": "aniyomi-en.fboxtv-v16.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "FboxTV",
+        "lang": "en",
+        "id": "8607517164327248383",
+        "baseUrl": "https://fboxtv.bz"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Flixer",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.flixer",
+    "apk": "aniyomi-en.flixer-v16.6.apk",
+    "lang": "en",
+    "code": 6,
+    "version": "16.6",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Flixer",
+        "lang": "en",
+        "id": "7620074466139707530",
+        "baseUrl": "https://flixer.gd"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: FlixHub",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.flixhub",
+    "apk": "aniyomi-en.flixhub-v16.3.apk",
+    "lang": "en",
+    "code": 3,
+    "version": "16.3",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "FlixHub",
+        "lang": "en",
+        "id": "5264620024545157065",
+        "baseUrl": "https://flixhub.net"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Animo",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.fouranimo",
+    "apk": "aniyomi-en.fouranimo-v16.21.apk",
+    "lang": "en",
+    "code": 21,
+    "version": "16.21",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Animo",
+        "lang": "en",
+        "id": "7133109675334823494",
+        "baseUrl": "https://4animo.xyz"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Fullraces",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.fullraces",
+    "apk": "aniyomi-en.fullraces-v16.8.apk",
+    "lang": "en",
+    "code": 8,
+    "version": "16.8",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Fullraces",
+        "lang": "en",
+        "id": "4588571202311546505",
+        "baseUrl": "https://fullraces.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Gogoanime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.gogoanime",
+    "apk": "aniyomi-en.gogoanime-v16.6.apk",
+    "lang": "en",
+    "code": 6,
+    "version": "16.6",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Gogoanime",
+        "lang": "en",
+        "id": "7055547649318749672",
+        "baseUrl": "https://gogoanime.or.at"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Hianimes",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.hianimes",
+    "apk": "aniyomi-en.hianimes-v16.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "16.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Hianimes",
+        "lang": "en",
+        "id": "6282094931163532270",
+        "baseUrl": "https://hianimes.se"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Itachi",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.itachi",
+    "apk": "aniyomi-en.itachi-v16.9.apk",
+    "lang": "en",
+    "code": 9,
+    "version": "16.9",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Itachi",
+        "lang": "en",
+        "id": "1072685638520223707",
+        "baseUrl": "https://itachi.tv"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: MKissa",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.mkissa",
+    "apk": "aniyomi-en.mkissa-v16.64.apk",
+    "lang": "en",
+    "code": 64,
+    "version": "16.64",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "MKissa",
+        "lang": "en",
+        "id": "4709139914729853090",
+        "baseUrl": "https://mkissa.to/anime"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Movies2Watch",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.movies2watch",
+    "apk": "aniyomi-en.movies2watch-v16.12.apk",
+    "lang": "en",
+    "code": 12,
+    "version": "16.12",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Movies2Watch",
+        "lang": "en",
+        "id": "6161563185464646089",
+        "baseUrl": "https://movies2watch.vc"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Moviewala",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.moviewala",
+    "apk": "aniyomi-en.moviewala-v16.10.apk",
+    "lang": "en",
+    "code": 10,
+    "version": "16.10",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "Moviewala",
+        "lang": "en",
+        "id": "3068283580392184041",
+        "baseUrl": "https://moviewala.tv"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Myasiantv",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.myasiantv",
+    "apk": "aniyomi-en.myasiantv-v16.7.apk",
+    "lang": "en",
+    "code": 7,
+    "version": "16.7",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "MyAsianTV",
+        "lang": "en",
+        "id": "636935766530283234",
+        "baseUrl": "https://myasiantv.com.lv"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Oneshows",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.oneshows",
+    "apk": "aniyomi-en.oneshows-v16.12.apk",
+    "lang": "en",
+    "code": 12,
+    "version": "16.12",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "1Shows",
+        "lang": "en",
+        "id": "8061619981563816163",
+        "baseUrl": "https://www.1shows.org"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: OneTouch TV",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.onetouchtv",
+    "apk": "aniyomi-en.onetouchtv-v16.5.apk",
+    "lang": "en",
+    "code": 5,
+    "version": "16.5",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "OneTouch TV",
+        "lang": "en",
+        "id": "4648047320965787791",
+        "baseUrl": "https://api3.devcorp.me"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: ReAnime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.reanime",
+    "apk": "aniyomi-en.reanime-v16.58.apk",
+    "lang": "en",
+    "code": 58,
+    "version": "16.58",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Re:ANIME",
+        "lang": "en",
+        "id": "7105156973687362431",
+        "baseUrl": "https://reanime.to"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: ShuttleTV",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.shuttletv",
+    "apk": "aniyomi-en.shuttletv-v16.24.apk",
+    "lang": "en",
+    "code": 24,
+    "version": "16.24",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "ShuttleTV",
+        "lang": "en",
+        "id": "778627055185364080",
+        "baseUrl": "https://shuttletv.su"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: SubDubAnime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.subdubanime",
+    "apk": "aniyomi-en.subdubanime-v16.3.apk",
+    "lang": "en",
+    "code": 3,
+    "version": "16.3",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "SubDubAnime",
+        "lang": "en",
+        "id": "7522897621148701765",
+        "baseUrl": "https://www.subdubanime.site"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: 2Dhive",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.twodhive",
+    "apk": "aniyomi-en.twodhive-v16.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "16.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "2Dhive",
+        "lang": "en",
+        "id": "8404306976787441992",
+        "baseUrl": "https://2dhive.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Vegamovies",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.vegamovies",
+    "apk": "aniyomi-en.vegamovies-v16.29.apk",
+    "lang": "en",
+    "code": 29,
+    "version": "16.29",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Vegamovies",
+        "lang": "en",
+        "id": "8978214901884626979",
+        "baseUrl": "https://vegamoviess.you"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Vidbox",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.vidbox",
+    "apk": "aniyomi-en.vidbox-v16.2.apk",
+    "lang": "en",
+    "code": 2,
+    "version": "16.2",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Vidbox",
+        "lang": "en",
+        "id": "9082661136976199656",
+        "baseUrl": "https://vidbox.vc"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: WatchAnimeWorld",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.watchanimeworld",
+    "apk": "aniyomi-en.watchanimeworld-v16.35.apk",
+    "lang": "en",
+    "code": 35,
+    "version": "16.35",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "WatchAnimeWorld",
+        "lang": "en",
+        "id": "427645343437574129",
+        "baseUrl": "https://watchanimeworld.ro"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Watchroo",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.watchroo",
+    "apk": "aniyomi-en.watchroo-v16.6.apk",
+    "lang": "en",
+    "code": 6,
+    "version": "16.6",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Watchroo",
+        "lang": "en",
+        "id": "56571030545639789",
+        "baseUrl": "https://watchroo.com"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Xanime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.xanime",
+    "apk": "aniyomi-en.xanime-v16.5.apk",
+    "lang": "en",
+    "code": 5,
+    "version": "16.5",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Xanime",
+        "lang": "en",
+        "id": "3262358113047577744",
+        "baseUrl": "https://xanime.me"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Zanora",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.zanora",
+    "apk": "aniyomi-en.zanora-v16.22.apk",
+    "lang": "en",
+    "code": 22,
+    "version": "16.22",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Zanora",
+        "lang": "en",
+        "id": "6393141613813663027",
+        "baseUrl": "https://zanora.lol"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: ZinkMovies",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.zinkmovies",
+    "apk": "aniyomi-en.zinkmovies-v16.6.apk",
+    "lang": "en",
+    "code": 6,
+    "version": "16.6",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "ZinkMovies",
+        "lang": "en",
+        "id": "5650261970936112162",
+        "baseUrl": "https://new2.zinkmovies.mobi"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: ZoroTv",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.zorotv",
+    "apk": "aniyomi-en.zorotv-v16.42.apk",
+    "lang": "en",
+    "code": 42,
+    "version": "16.42",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "ZoroTv",
+        "lang": "en",
+        "id": "5951870780237524374",
+        "baseUrl": "https://www.zorotv.se"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: ReAnime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.es.reanime",
+    "apk": "aniyomi-es.reanime-v16.4.apk",
+    "lang": "es",
+    "code": 4,
+    "version": "16.4",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "ReAnime",
+        "lang": "es",
+        "id": "247682716247715118",
+        "baseUrl": "https://reanime.to"
+      }
+    ]
+  }
+]
