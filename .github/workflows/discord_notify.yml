@@ -7,13 +7,27 @@ on:
     paths:
       - 'apk/**'
       - 'index.min.json'
+  workflow_dispatch:
+    inputs:
+      force_notify_all:
+        description: 'Force notify recent extensions even if diff is empty'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: discord-notify
+  cancel-in-progress: false
+
+permissions:
+  contents: read
 
 jobs:
   notify:
     name: Notify Discord
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout latest main
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -21,12 +35,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'
 
-      - name: Run Discord Notification Script
+      - name: Run Discord Notification
         env:
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.event.after }}
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          FORCE_NOTIFY_ALL: ${{ github.event.inputs.force_notify_all }}
         run: |
           python .github/scripts/notify.py
