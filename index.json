@@ -1,39 +1,5 @@
 [
   {
-    "name": "Aniyomi: AgniSYS",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.agnisys",
-    "apk": "aniyomi-all.agnisys-v16.11016.apk",
-    "lang": "all",
-    "code": 11016,
-    "version": "16.11016",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "AgniSYS",
-        "lang": "all",
-        "id": "7505489421620415599",
-        "baseUrl": "http://182.252.81.180:8096"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Amader FTP",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.amaderftp",
-    "apk": "aniyomi-all.amaderftp-v16.1019.apk",
-    "lang": "all",
-    "code": 1019,
-    "version": "16.1019",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Amader FTP",
-        "lang": "all",
-        "id": "8118632983621266808",
-        "baseUrl": "http://amaderftp.net:8096"
-      }
-    ]
-  },
-  {
     "name": "Aniyomi: Anidap",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.anidap",
     "apk": "aniyomi-all.anidap-v16.27.apk",
@@ -102,40 +68,6 @@
     ]
   },
   {
-    "name": "Aniyomi: Bas play",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.basplay",
-    "apk": "aniyomi-all.basplay-v16.1437.apk",
-    "lang": "all",
-    "code": 1437,
-    "version": "16.1437",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Bas play",
-        "lang": "all",
-        "id": "5181466391484419847",
-        "baseUrl": "http://103.87.212.46"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: BDIX Live TV",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.bdixlivetv",
-    "apk": "aniyomi-all.bdixlivetv-v16.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "16.3",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "BDIX Live TV",
-        "lang": "all",
-        "id": "4519283712345678910",
-        "baseUrl": "http://172.16.29.28"
-      }
-    ]
-  },
-  {
     "name": "Castle TV",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.castletv",
     "apk": "aniyomi-all.castletv-v16.9.apk",
@@ -149,23 +81,6 @@
         "lang": "all",
         "id": "2505380552862183475",
         "baseUrl": "https://api.hlowb.com"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Cineplexbd",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.cineplexbd",
-    "apk": "aniyomi-all.cineplexbd-v16.1066.apk",
-    "lang": "all",
-    "code": 1066,
-    "version": "16.1066",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Cineplex BD",
-        "lang": "all",
-        "id": "5181466391484419848",
-        "baseUrl": "http://cineplexbd.net"
       }
     ]
   },
@@ -231,92 +146,6 @@
     "sha256": "4549fac236446044f0d4eec3d58b125f2800f99622e3378b625e848c725bbeb0"
   },
   {
-    "name": "Aniyomi: DhakaFlix 2",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.dhakaflix2",
-    "apk": "aniyomi-all.dhakaflix2-v16.1225.apk",
-    "lang": "all",
-    "code": 1225,
-    "version": "16.1225",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "DhakaFlix (Hindi & South Indian)",
-        "lang": "all",
-        "id": "5181466391484419941",
-        "baseUrl": "http://172.16.50.14"
-      },
-      {
-        "name": "DhakaFlix (TV & Web Series)",
-        "lang": "all",
-        "id": "5181466391484419942",
-        "baseUrl": "http://172.16.50.12"
-      },
-      {
-        "name": "DhakaFlix (Anime & Documentary)",
-        "lang": "all",
-        "id": "5181466391484419943",
-        "baseUrl": "http://172.16.50.10"
-      },
-      {
-        "name": "DhakaFlix (English & International)",
-        "lang": "all",
-        "id": "5181466391484419944",
-        "baseUrl": "http://172.16.50.7"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Fanush",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.fanush",
-    "apk": "aniyomi-all.fanush-v16.1019.apk",
-    "lang": "all",
-    "code": 1019,
-    "version": "16.1019",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Fanush",
-        "lang": "all",
-        "id": "7106022310108409904",
-        "baseUrl": "http://103.132.95.221:8096"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: FM FTP",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.fmftp",
-    "apk": "aniyomi-all.fmftp-v16.1012.apk",
-    "lang": "all",
-    "code": 1012,
-    "version": "16.1012",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "FM FTP",
-        "lang": "all",
-        "id": "7214566391484419847",
-        "baseUrl": "https://fmftp.net"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Fojik",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.fojik",
-    "apk": "aniyomi-all.fojik-v16.11.apk",
-    "lang": "all",
-    "code": 11,
-    "version": "16.11",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Fojik",
-        "lang": "all",
-        "id": "859473620158291034",
-        "baseUrl": "https://fojik.com"
-      }
-    ]
-  },
-  {
     "name": "Aniyomi: 4KHDHub",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.fourkhdhub",
     "apk": "aniyomi-all.fourkhdhub-v16.12.apk",
@@ -334,98 +163,6 @@
     ]
   },
   {
-    "name": "Aniyomi: FtpBd",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.ftpbd",
-    "apk": "aniyomi-all.ftpbd-v16.1353.apk",
-    "lang": "all",
-    "code": 1353,
-    "version": "16.1353",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "FTPBD (Movies)",
-        "lang": "all",
-        "id": "23418800222257732",
-        "baseUrl": "https://server3.ftpbd.net"
-      },
-      {
-        "name": "FTPBD (English)",
-        "lang": "all",
-        "id": "23417700710629956",
-        "baseUrl": "http://server2.ftpbd.net"
-      },
-      {
-        "name": "FTPBD (Anime)",
-        "lang": "all",
-        "id": "23420999245513284",
-        "baseUrl": "https://server5.ftpbd.net"
-      },
-      {
-        "name": "FTPBD (Series & Tutorial)",
-        "lang": "all",
-        "id": "23419899733885508",
-        "baseUrl": "http://server4.ftpbd.net"
-      },
-      {
-        "name": "FTPBD (Sports)",
-        "lang": "all",
-        "id": "23423198268768836",
-        "baseUrl": "https://server7.ftpbd.net"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: ICC FTP",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.iccftp",
-    "apk": "aniyomi-all.iccftp-v16.1017.apk",
-    "lang": "all",
-    "code": 1017,
-    "version": "16.1017",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "ICC FTP",
-        "lang": "all",
-        "id": "84726193058274619",
-        "baseUrl": "http://10.16.100.244"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Bijoy",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.jellyfinbijoy",
-    "apk": "aniyomi-all.jellyfinbijoy-v16.1015.apk",
-    "lang": "all",
-    "code": 1015,
-    "version": "16.1015",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Bijoy",
-        "lang": "all",
-        "id": "2457157732627850781",
-        "baseUrl": "http://10.20.30.50"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Live Sports",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.livesports",
-    "apk": "aniyomi-all.livesports-v16.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "16.3",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Live Sports",
-        "lang": "all",
-        "id": "8246513271928475192",
-        "baseUrl": "http://10.20.30.40"
-      }
-    ]
-  },
-  {
     "name": "Aniyomi: Lunar",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.lunar",
     "apk": "aniyomi-all.lunar-v16.23.apk",
@@ -439,23 +176,6 @@
         "lang": "all",
         "id": "8611057227872046318",
         "baseUrl": "https://lunarx.to"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Mango Live TV",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.mangolivetv",
-    "apk": "aniyomi-all.mangolivetv-v16.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "16.3",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Mango Live TV",
-        "lang": "all",
-        "id": "8519283712345678910",
-        "baseUrl": "http://10.114.130.254"
       }
     ]
   },
@@ -577,40 +297,6 @@
         "lang": "all",
         "id": "8915758360368909138",
         "baseUrl": "https://pc.netmovie.site"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: RoarZone",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.roarzone",
-    "apk": "aniyomi-all.roarzone-v16.1024.apk",
-    "lang": "all",
-    "code": 1024,
-    "version": "16.1024",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "RoarZone",
-        "lang": "all",
-        "id": "1728503975387903131",
-        "baseUrl": "https://play.roarzone.net"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Roar zone tv",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.roarzonetv",
-    "apk": "aniyomi-all.roarzonetv-v16.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "16.3",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Roar zone tv",
-        "lang": "all",
-        "id": "84769302158234569",
-        "baseUrl": "https://tv.roarzone.net"
       }
     ]
   },
@@ -2081,6 +1767,74 @@
         "lang": "es",
         "id": "247682716247715118",
         "baseUrl": "https://reanime.to"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: DesiDubAnime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.hi.desidubanime",
+    "apk": "aniyomi-hi.desidubanime-v16.17.apk",
+    "lang": "hi",
+    "code": 17,
+    "version": "16.17",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "DesiDubAnime",
+        "lang": "hi",
+        "id": "8635951306616853538",
+        "baseUrl": "https://www.desidubanime.me"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: SubDubAnime",
+    "pkg": "eu.kanade.tachiyomi.animeextension.hi.subdubanime",
+    "apk": "aniyomi-hi.subdubanime-v16.6.apk",
+    "lang": "hi",
+    "code": 6,
+    "version": "16.6",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "SubDubAnime",
+        "lang": "hi",
+        "id": "7183625824963730809",
+        "baseUrl": "https://www.subdubanime.site"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Toonhub4u",
+    "pkg": "eu.kanade.tachiyomi.animeextension.hi.toonhub4u",
+    "apk": "aniyomi-hi.toonhub4u-v16.13.apk",
+    "lang": "hi",
+    "code": 13,
+    "version": "16.13",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Toonhub4u",
+        "lang": "hi",
+        "id": "5182749372810482937",
+        "baseUrl": "https://toonhub4u.co"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: WatchAnimeWorld",
+    "pkg": "eu.kanade.tachiyomi.animeextension.hi.watchanimeworld",
+    "apk": "aniyomi-hi.watchanimeworld-v16.43.apk",
+    "lang": "hi",
+    "code": 43,
+    "version": "16.43",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "WatchAnimeWorld",
+        "lang": "hi",
+        "id": "8446602506973348345",
+        "baseUrl": "https://watchanimeworld.ro"
       }
     ]
   }
