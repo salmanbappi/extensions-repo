@@ -85,50 +85,6 @@
     ]
   },
   {
-    "name": "Aniyomi: Dflix backup",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.dflixbackup",
-    "apk": "eu.kanade.tachiyomi.animeextension.all.dflixbackup-v14.187-c187.apk",
-    "lang": "all",
-    "code": 187,
-    "version": "14.187",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "icon": "https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/eu.kanade.tachiyomi.animeextension.all.dflixbackup.png",
-    "sources": [
-      {
-        "name": "Dflix backup",
-        "lang": "all",
-        "id": 5181466391484419844,
-        "baseUrl": "https://dflix.discoveryftp.net"
-      }
-    ],
-    "size": 132037,
-    "sha256": "5b7cce46ece9b94ed79672a2b6f20ac711c311dc4803f8434842f27ae58bba33"
-  },
-  {
-    "name": "Aniyomi: Dhakadev",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.dhakaflix",
-    "apk": "eu.kanade.tachiyomi.animeextension.all.dhakaflix-v14.1273-c1273.apk",
-    "lang": "all",
-    "code": 1273,
-    "version": "14.1273",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "icon": "https://raw.githubusercontent.com/salmanbappi/extensions-repo/main/icon/eu.kanade.tachiyomi.animeextension.all.dhakaflix.png",
-    "sources": [
-      {
-        "name": "DhakaFlix",
-        "lang": "all",
-        "id": 5181466391484419841,
-        "baseUrl": "http://172.16.50.9"
-      }
-    ],
-    "size": 127941,
-    "sha256": "4549fac236446044f0d4eec3d58b125f2800f99622e3378b625e848c725bbeb0"
-  },
-  {
     "name": "Aniyomi: 4KHDHub",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.fourkhdhub",
     "apk": "aniyomi-all.fourkhdhub-v16.12.apk",
