@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Community" />
   </a>
   <a href="https://github.com/salmanbappi/extensions-repo">
-    <img src="https://img.shields.io/badge/dynamic/json?query=count&label=Views&color=7c3aed&style=for-the-badge&url=https%3A%2F%2Fapi.counterapi.dev%2Fv1%2Fsalmanbappi%2Fextensions-repo%2Fup" alt="Repository Views" />
+    <img src="https://komarev.com/ghpvc/?username=salmanbappi-extensions-repo&label=Views&color=7c3aed&style=for-the-badge" alt="Repository Views" />
   </a>
 </p>
 
