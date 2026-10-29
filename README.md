@@ -77,7 +77,7 @@ Need assistance, want to request an extension, or looking to report a broken sou
 | **Source Monorepo** | [salmanbappi/sb-extensions-source](https://github.com/salmanbappi/sb-extensions-source) |
 | **Distribution Repo** | [salmanbappi/extensions-repo](https://github.com/salmanbappi/extensions-repo) |
 | **API Architecture** | Extensions-lib API v16 baseline (Aniyomi v14–v17 & AniZen compatible) |
-| **Languages Supported** | English (`en`), Bangla / BDIX (`bn`), Multi-language (`all`), Arabic (`ar`), Spanish (`es`) |
+| **Languages Supported** | English (`en`), Bangla / BDIX (`bn`), Hindi (`hi`), Multi-language (`all`), Arabic (`ar`), Spanish (`es`) |
 | **Automation Engine** | Fully automated remote CI/CD via GitHub Actions (`build_push.yml`) |
 | **Signing Protocol** | Android APK v2/v3 scheme with SHA-256 trust pinning |
 

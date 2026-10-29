@@ -85,23 +85,6 @@
     ]
   },
   {
-    "name": "Aniyomi: DesiDubAnime",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.desidubanime",
-    "apk": "aniyomi-all.desidubanime-v16.16.apk",
-    "lang": "all",
-    "code": 16,
-    "version": "16.16",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "DesiDubAnime",
-        "lang": "all",
-        "id": "3336502816552275903",
-        "baseUrl": "https://www.desidubanime.me"
-      }
-    ]
-  },
-  {
     "name": "Aniyomi: Dflix backup",
     "pkg": "eu.kanade.tachiyomi.animeextension.all.dflixbackup",
     "apk": "eu.kanade.tachiyomi.animeextension.all.dflixbackup-v14.187-c187.apk",
@@ -314,23 +297,6 @@
         "lang": "all",
         "id": "85274903847291047",
         "baseUrl": "http://127.0.0.1:43211"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: Toonhub4u",
-    "pkg": "eu.kanade.tachiyomi.animeextension.all.toonhub4u",
-    "apk": "aniyomi-all.toonhub4u-v16.12.apk",
-    "lang": "all",
-    "code": 12,
-    "version": "16.12",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Toonhub4u",
-        "lang": "all",
-        "id": "5182749372810482937",
-        "baseUrl": "https://toonhub4u.co"
       }
     ]
   },
@@ -1567,23 +1533,6 @@
     ]
   },
   {
-    "name": "Aniyomi: SubDubAnime",
-    "pkg": "eu.kanade.tachiyomi.animeextension.en.subdubanime",
-    "apk": "aniyomi-en.subdubanime-v16.5.apk",
-    "lang": "en",
-    "code": 5,
-    "version": "16.5",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "SubDubAnime",
-        "lang": "en",
-        "id": "7522897621148701765",
-        "baseUrl": "https://www.subdubanime.site"
-      }
-    ]
-  },
-  {
     "name": "Aniyomi: 2Dhive",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.twodhive",
     "apk": "aniyomi-en.twodhive-v16.8.apk",
@@ -1631,23 +1580,6 @@
         "lang": "en",
         "id": "9082661136976199656",
         "baseUrl": "https://vidbox.vc"
-      }
-    ]
-  },
-  {
-    "name": "Aniyomi: WatchAnimeWorld",
-    "pkg": "eu.kanade.tachiyomi.animeextension.en.watchanimeworld",
-    "apk": "aniyomi-en.watchanimeworld-v16.42.apk",
-    "lang": "en",
-    "code": 42,
-    "version": "16.42",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "WatchAnimeWorld",
-        "lang": "en",
-        "id": "427645343437574129",
-        "baseUrl": "https://watchanimeworld.ro"
       }
     ]
   },
