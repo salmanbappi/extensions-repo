@@ -378,35 +378,42 @@
   {
     "name": "Aniyomi: DhakaFlix 2",
     "pkg": "eu.kanade.tachiyomi.animeextension.bn.dhakaflix2",
-    "apk": "aniyomi-bn.dhakaflix2-v16.1226.apk",
+    "apk": "aniyomi-bn.dhakaflix2-v16.1227.apk",
     "lang": "bn",
-    "code": 1226,
-    "version": "16.1226",
+    "code": 1227,
+    "version": "16.1227",
     "nsfw": 0,
+    "contentRating": 1,
+    "extensionLib": "16",
+    "isTorrent": false,
     "sources": [
       {
         "name": "DhakaFlix (Hindi & South Indian)",
         "lang": "bn",
         "id": "5181466391484419941",
-        "baseUrl": "http://172.16.50.14"
+        "baseUrl": "http://172.16.50.14",
+        "mirrorUrls": []
       },
       {
         "name": "DhakaFlix (TV & Web Series)",
         "lang": "bn",
         "id": "5181466391484419942",
-        "baseUrl": "http://172.16.50.12"
+        "baseUrl": "http://172.16.50.12",
+        "mirrorUrls": []
       },
       {
         "name": "DhakaFlix (Anime & Documentary)",
         "lang": "bn",
         "id": "5181466391484419943",
-        "baseUrl": "http://172.16.50.10"
+        "baseUrl": "http://172.16.50.10",
+        "mirrorUrls": []
       },
       {
         "name": "DhakaFlix (English & International)",
         "lang": "bn",
         "id": "5181466391484419944",
-        "baseUrl": "http://172.16.50.7"
+        "baseUrl": "http://172.16.50.7",
+        "mirrorUrls": []
       }
     ]
   },
@@ -760,17 +767,21 @@
   {
     "name": "Aniyomi: AniLab",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.anilab",
-    "apk": "aniyomi-en.anilab-v16.11.apk",
+    "apk": "aniyomi-en.anilab-v16.17.apk",
     "lang": "en",
-    "code": 11,
-    "version": "16.11",
+    "code": 17,
+    "version": "16.17",
     "nsfw": 0,
+    "contentRating": 1,
+    "extensionLib": "16",
+    "isTorrent": false,
     "sources": [
       {
         "name": "AniLab",
         "lang": "en",
         "id": "360505579884318703",
-        "baseUrl": "https://anilab2.amdapi.click/api"
+        "baseUrl": "https://anilab2.amdapi.click/api",
+        "mirrorUrls": []
       }
     ]
   },
@@ -1032,17 +1043,21 @@
   {
     "name": "Aniyomi: AV1Encodes",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.av1encodes",
-    "apk": "aniyomi-en.av1encodes-v16.8.apk",
+    "apk": "aniyomi-en.av1encodes-v16.12.apk",
     "lang": "en",
-    "code": 8,
-    "version": "16.8",
+    "code": 12,
+    "version": "16.12",
     "nsfw": 0,
+    "contentRating": 1,
+    "extensionLib": "16",
+    "isTorrent": false,
     "sources": [
       {
         "name": "AV1Encodes",
         "lang": "en",
         "id": "1014227790860730234",
-        "baseUrl": "https://av1encodes.com"
+        "baseUrl": "https://animealpha.cc",
+        "mirrorUrls": []
       }
     ]
   },
@@ -1268,6 +1283,27 @@
     ]
   },
   {
+    "name": "Aniyomi: Gotaku",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.gotaku",
+    "apk": "aniyomi-en.gotaku-v16.11.apk",
+    "lang": "en",
+    "code": 11,
+    "version": "16.11",
+    "nsfw": 0,
+    "contentRating": 1,
+    "extensionLib": "16",
+    "isTorrent": false,
+    "sources": [
+      {
+        "name": "Gotaku",
+        "lang": "en",
+        "id": "5194074774836006982",
+        "baseUrl": "https://gotaku.to",
+        "mirrorUrls": []
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: Hianimes",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.hianimes",
     "apk": "aniyomi-en.hianimes-v16.3.apk",
@@ -1438,6 +1474,27 @@
     ]
   },
   {
+    "name": "Aniyomi: Pornhub",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.pornhub",
+    "apk": "aniyomi-en.pornhub-v16.8.apk",
+    "lang": "en",
+    "code": 8,
+    "version": "16.8",
+    "nsfw": 1,
+    "contentRating": 3,
+    "extensionLib": "16",
+    "isTorrent": false,
+    "sources": [
+      {
+        "name": "Pornhub",
+        "lang": "en",
+        "id": "3208952811632821250",
+        "baseUrl": "https://www.pornhub.com",
+        "mirrorUrls": []
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: ReAnime",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.reanime",
     "apk": "aniyomi-en.reanime-v16.60.apk",
@@ -1508,17 +1565,21 @@
   {
     "name": "Aniyomi: Vegamovies",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.vegamovies",
-    "apk": "aniyomi-en.vegamovies-v16.32.apk",
+    "apk": "aniyomi-en.vegamovies-v16.33.apk",
     "lang": "en",
-    "code": 32,
-    "version": "16.32",
+    "code": 33,
+    "version": "16.33",
     "nsfw": 0,
+    "contentRating": 1,
+    "extensionLib": "16",
+    "isTorrent": false,
     "sources": [
       {
         "name": "Vegamovies",
         "lang": "en",
         "id": "8978214901884626979",
-        "baseUrl": "https://vegamoviess.you"
+        "baseUrl": "https://vegamovies9.co.in",
+        "mirrorUrls": []
       }
     ]
   },
