@@ -760,17 +760,21 @@
   {
     "name": "Aniyomi: AniLab",
     "pkg": "eu.kanade.tachiyomi.animeextension.en.anilab",
-    "apk": "aniyomi-en.anilab-v16.11.apk",
+    "apk": "aniyomi-en.anilab-v16.17.apk",
     "lang": "en",
-    "code": 11,
-    "version": "16.11",
+    "code": 17,
+    "version": "16.17",
     "nsfw": 0,
+    "contentRating": 1,
+    "extensionLib": "16",
+    "isTorrent": false,
     "sources": [
       {
         "name": "AniLab",
         "lang": "en",
         "id": "360505579884318703",
-        "baseUrl": "https://anilab2.amdapi.click/api"
+        "baseUrl": "https://anilab2.amdapi.click/api",
+        "mirrorUrls": []
       }
     ]
   },
@@ -1434,6 +1438,27 @@
         "lang": "en",
         "id": "4648047320965787791",
         "baseUrl": "https://api3.devcorp.me"
+      }
+    ]
+  },
+  {
+    "name": "Aniyomi: Pornhub",
+    "pkg": "eu.kanade.tachiyomi.animeextension.en.pornhub",
+    "apk": "aniyomi-en.pornhub-v16.8.apk",
+    "lang": "en",
+    "code": 8,
+    "version": "16.8",
+    "nsfw": 1,
+    "contentRating": 3,
+    "extensionLib": "16",
+    "isTorrent": false,
+    "sources": [
+      {
+        "name": "Pornhub",
+        "lang": "en",
+        "id": "3208952811632821250",
+        "baseUrl": "https://www.pornhub.com",
+        "mirrorUrls": []
       }
     ]
   },
